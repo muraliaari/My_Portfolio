@@ -1,0 +1,455 @@
+body{
+    
+  margin:0%
+ }
+
+nav {
+  background-color: rgba(109, 104, 104, 0.3); /* Set a transparent background color for the navigation bar */
+  backdrop-filter: blur(5px); /* Apply a 10 pixel blur to the background of the navigation bar */
+  -webkit-backdrop-filter: blur(5px); /* For Safari */
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.reactjs{
+  color:rgba(192, 201, 238, 0.747);
+  font-size: 65px;
+  font-family:Montserrat, sans-serif;
+}
+
+.frontend{
+  color:red;
+  font-size: 55px;
+  font-family:  Montserrat, sans-serif;
+}
+
+.developer{
+  color:red;
+   font-size : 55px;
+}
+
+.pandimage{
+  display:inline-flex;
+   padding:5px;
+}
+
+.descri{
+  color:aqua;
+   justify-content: left;
+    margin-top: 20px;
+}
+.home{
+  background: linear-gradient(to right, #000428 , #004e92) ;
+   height:660px; 
+   padding:100px;
+  margin:0%;
+
+}
+
+
+.hi{
+  font-family : 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: #ec8593f5;
+  }
+
+  .murali{
+    color: rgba(192, 201, 238, 0.747);
+    font-size: 45px;
+    padding: 15px;
+  }
+  
+  .buttons{
+    background-color : rgba(233, 218, 218, 0.5);
+    backdrop-filter: blur(5px); /* Apply a 10 pixel blur to the background of the navigation bar */
+  -webkit-backdrop-filter: blur(5px);
+    border: none;
+    color: rgb(10, 10, 9);
+    padding: 17px;
+    padding-inline: 130px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;  
+  }
+  
+  .home_img{
+  width: 350px;
+  margin-top: -150px;
+  }
+
+  nav div .buttons:hover{
+    background-color: rgba(252, 127, 127, 0.9)
+   }
+
+   .gradient{
+    background: linear-gradient(to bottom, #fcb045 0%, #fcb045 50%, rgb(236, 125, 125) 0%, rgb(243, 149, 149) 50%);
+    height: 600px;
+    
+   }
+
+   .main_projects{
+    display:flex;
+       justify-content: space-evenly;
+       padding: 20px;
+   }
+
+   .cards{
+    width:  345px;
+     margin-top: 90px;
+   }
+
+   .individualCards{
+    height: 200px;
+       width: 300px;
+   }
+   
+   
+   .projects{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 33px;
+    margin-left: -50px;
+    margin-top: 90px;
+
+   }
+
+   .typography{
+    font-size: 20px;
+    font-weight: bolder;
+   }
+
+   .button-29{
+    width: auto;
+    
+   }
+ 
+
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.skills{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 33px;
+  margin-left: -30px;
+  color: #0c0c0b;
+  margin-top: 200px;
+   }
+
+   .skills_main{
+    display: flex;
+    justify-content:space-evenly;
+    background : linear-gradient(to left, #74ebd5, #ACB6E5);
+    height: 670px;
+   }
+   
+    li img{
+    width: 120px;
+    }
+
+   .logos{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -100px;
+    margin-top: 70px;
+   }
+
+   .logos > li{
+    padding-inline: 80px;
+    margin-top: 25px;
+
+   }
+
+   .logos > li > p{
+    font-size: 25px;
+    text-align: center;
+   }
+
+
+
+.contact > li{
+  list-style-type: none;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.contact li img{
+  width: 100px;
+  
+}
+.main_contact{
+  text-align: center;
+  background-color: #004e92;
+}
+
+.main_contact  div > h1{
+  padding-top: 4%;
+  color: rgb(26, 24, 23);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+
+}
+.buttons_in_contact{
+  background: none;
+  border: none;
+}
+
+.anchor{
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav {
+    background-color: rgba(109, 104, 104, 0.3); /* Set a transparent background color for the navigation bar */
+    backdrop-filter: blur(5px); /* Apply a 10 pixel blur to the background of the navigation bar */
+    -webkit-backdrop-filter: blur(5px); /* For Safari */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  .buttons{
+    background-color : rgba(233, 218, 218, 0.5);
+    backdrop-filter: blur(5px); /* Apply a 10 pixel blur to the background of the navigation bar */
+  -webkit-backdrop-filter: blur(5px);
+    border: none;
+    color: rgb(10, 10, 9);
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;  
+    width: 90px;
+    display: inline-flex;
+    padding-inline: 7%;
+  }
+
+  .hi{
+    font-family : 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #ec8593f5;
+    }
+
+  .reactjs{
+    color:rgba(192, 201, 238, 0.747);
+    font-size: 25px;
+    font-family:Montserrat, sans-serif;
+  }
+  
+  .frontend{
+    color:red;
+    font-size: 20px;
+    font-family:  Montserrat, sans-serif;
+  }
+  
+  .developer{
+    color:red;
+     font-size : 20px;
+     font-family:  Montserrat, sans-serif;
+  }
+  
+  .pandimage{
+    display:inline-flex;
+     padding:5px;
+  }
+  
+  .descri{
+    color:aqua;
+     justify-content: left;
+      margin-top: 10px;
+      font-size: 12px;
+  }
+
+  
+  
+    .murali{
+      color: rgba(192, 201, 238, 0.747);
+      font-size: 45px;
+      padding: 15px;
+    }
+  
+  .home{
+    background: linear-gradient(to right, #000428 , #004e92) ;
+     height:450px; 
+     padding:10px;
+    margin:0%;  
+ }
+
+ .home_img{
+  width: 150px;
+  margin-top: -150px;
+  }
+
+
+  .gradient{
+    background: linear-gradient(to bottom, #fcb045 0%, #fcb045 50%, rgb(236, 125, 125) 0%, rgb(243, 149, 149) 50%);
+    height: 300px;
+    
+   }
+
+   .main_projects{
+  
+    padding: 10px;
+   }
+
+   .cards{
+    width:  180px;
+    height: 200px;
+     margin-top: 40px;
+     margin-left: 0;
+   }
+
+   .individualCards{
+    height: 50px;
+       width: 150px;
+       margin-left: 0px;
+   }
+   
+   .projects{
+    writing-mode: horizontal-tb;
+    position: absolute;
+    font-size: 25px;
+    color: #000;
+    margin-left: 0px;
+    margin-top: 0px;
+
+   }
+
+   .button-6 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 100px;
+  }
+  
+  .button-6:hover,
+  .button-6:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .button-6:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-6:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+
+  .skills{
+    writing-mode:horizontal-tb;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 0px;
+    color: #0c0c0b;
+    margin-top: 0px;
+     }
+  
+     .skills_main{
+      background : linear-gradient(to left, #74ebd5, #ACB6E5);
+      height: 670px;
+     }
+     
+      li img{
+      width: 70px;
+      }
+  
+     .logos{
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 00px;
+      margin-top: 70px;
+     }
+  
+     .logos > li{
+      padding-inline: 18px;
+      margin-top: 15px;
+  
+     }
+  
+     .logos > li > p{
+      font-size: 20px;
+      text-align: center;
+     }
+}
