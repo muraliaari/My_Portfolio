@@ -26,7 +26,7 @@ const Projects = () => {
       </CardContent>
       <CardActions>
         <button size="" className="button-6" onClick={()=> window.open("https://thethaliapp.netlify.app/", "_blank")}>Visit</button> 
-        <button size="" className="button-6" onClick={()=> window.open("https://github.com/muraliaari/Mini-Project", "_blank") }>Git Repo</button>
+        <button size="" className="button-6" onClick={()=> window.open("https://github.com/muraliaari/Mini-Project", "_blank") }>Repo</button>
       </CardActions>
     </Card>
 
@@ -47,7 +47,7 @@ const Projects = () => {
       </CardContent>
       <CardActions>
         <button  className="button-6" onClick={()=> window.open("https://login-signups.netlify.app/", "_blank")}>Visit</button>
-        <button  className="button-6" onClick={()=> window.open("https://github.com/muraliaari/Signup-and-Login", "_blank")}>Git Repo</button>
+        <button  className="button-6" onClick={()=> window.open("https://github.com/muraliaari/Signup-and-Login", "_blank")}>Repo</button>
             </CardActions>
             </Card>
         
