@@ -53,6 +53,27 @@ const Projects = () => {
         
      </div>
 
+     <div>
+           <Card className='shadow-lg p-3 mb-5 bg-body-tertiary rounded cards'>
+      <CardMedia
+        className='individualCards'
+        image="https://static.vecteezy.com/system/resources/thumbnails/005/441/358/small/inventory-management-with-goods-demand-and-stock-supply-tiny-person-concept-vector.jpg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography className='typography'>
+          User Inventory(MERN)
+        </Typography>
+       
+      </CardContent>
+      <CardActions>
+        <button  className="button-6" onClick={()=> window.open("https://muraliaari-user-inventory.netlify.app/", "_blank")}>Visit</button>
+        <button  className="button-6" onClick={()=> window.open("https://github.com/muraliaari/Inventory.git", "_blank")}>Repo</button>
+            </CardActions>
+            </Card>
+        
+     </div>
+
     </div>
     </div>
   )
