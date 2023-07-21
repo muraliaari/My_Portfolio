@@ -16,6 +16,7 @@ const Skills = () => {
             <li><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" alt="" /><p>CSS</p></li>
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" alt="" /><p>HTML</p></li>
             <li><img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png" alt="" /><p>NodeJs</p></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png" alt="" /><p>Python</p></li>
            
           </ul>
 

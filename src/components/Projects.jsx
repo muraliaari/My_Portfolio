@@ -20,7 +20,7 @@ const Projects = () => {
       />
       <CardContent>
         <Typography className='typography'>
-          Thali App
+          <p className='project-title'>Thali App</p>
         </Typography>
         
       </CardContent>
@@ -41,7 +41,7 @@ const Projects = () => {
       />
       <CardContent>
         <Typography className='typography'>
-          Login and Signup(MERN)
+          <p className='project-title'>Login & Signup(MERN)</p>
         </Typography>
        
       </CardContent>
@@ -62,7 +62,7 @@ const Projects = () => {
       />
       <CardContent>
         <Typography className='typography'>
-          User Inventory(MERN)
+          <p className='project-title'>User Inventory(MERN)</p>
         </Typography>
        
       </CardContent>

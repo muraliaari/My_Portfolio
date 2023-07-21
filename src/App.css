@@ -347,7 +347,7 @@ nav {
    }
 
    .cards{
-    width:  180px;
+    width:  130px;
     height: 200px;
      margin-top: 40px;
      margin-left: 0;
@@ -355,7 +355,7 @@ nav {
 
    .individualCards{
     height: 50px;
-       width: 150px;
+       width: 120px;
        margin-left: 0px;
    }
    
@@ -367,6 +367,11 @@ nav {
     margin-left: 0px;
     margin-top: 0px;
 
+   }
+
+   .project-title{
+    font-size: 13px;
+    text-align: justify;
    }
 
    .button-6 {
