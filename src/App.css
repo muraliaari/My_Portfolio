@@ -252,7 +252,7 @@ nav {
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 325px) and (max-width: 480px) {
   nav {
     background-color: rgba(109, 104, 104, 0.3); /* Set a transparent background color for the navigation bar */
     backdrop-filter: blur(5px); /* Apply a 10 pixel blur to the background of the navigation bar */
@@ -347,7 +347,7 @@ nav {
    }
 
    .cards{
-    width:  130px;
+    width:  120px;
     height: 200px;
      margin-top: 40px;
      margin-left: 0;
@@ -355,7 +355,7 @@ nav {
 
    .individualCards{
     height: 50px;
-       width: 120px;
+       width: 90px;
        margin-left: 0px;
    }
    
